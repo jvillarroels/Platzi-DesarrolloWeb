@@ -1,3 +1,53 @@
+/* 
+Reglas
+Selectores
+Declaraciones
+Propiedades
+Valores 
+*/
+
+/* Selector de etiqueta: header - section - article - nav - Etc. 
+   -------------------- */
+
+/* header {
+  background: pink;
+  color: red;
+} */
+
+/*
+
+!important Hace que se cumpla por encima de todas las reglas de cascada
+
+header {
+  background: pink !important;
+}
+*/
+
+/* Selector descendente 
+   -------------------- */
+/*   
+body header div nav ol li a {
+} 
+*/
+
+/* selector de clase 
+   ----------------- */
+/*   
+.link 
+*/
+
+/* selector de id #
+   -------------- */
+/*
+   #portafolio
+*/
+
+/* gris oscuro = #1d252c */
+/* gris claro = #626262 */
+/* background gris = #1b2127 */
+/* celeste = #026fff */
+
 header {
     background: pink;
+    color: red;
 }
