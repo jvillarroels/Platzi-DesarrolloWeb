@@ -47,7 +47,15 @@ body header div nav ol li a {
 /* background gris = #1b2127 */
 /* celeste = #026fff */
 
-header {
+/* header {
     background: pink;
     color: red;
+} */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fjalla One', sans-serif;
 }
