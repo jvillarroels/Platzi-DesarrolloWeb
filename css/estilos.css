@@ -131,3 +131,19 @@ h1 strong {
    color: white;
    text-decoration: none;
 }
+
+.flexbox {
+   display: flex;
+   /* flex-direction: column; */
+   /* flex-wrap: nowrap; */
+   flex-wrap: wrap;
+
+}
+
+.box {
+   width: 50px;
+   height: 50px;
+   margin: 5px;
+   border: 1px solid red;
+   flex-shrink: 0;
+}
