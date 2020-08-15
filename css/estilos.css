@@ -78,6 +78,17 @@ h1 strong {
    color: #026fff;
 }
 
+figure {
+   margin: 0;
+}
+
+ol, 
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
 .hero {
    height: 300px;
    /* background-color: red; */
@@ -124,12 +135,32 @@ h1 strong {
 
 .header {
    background-color: #1b2127;
-   color: white
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   height: 90px;
 }
 
 .header a {
    color: white;
    text-decoration: none;
+   height: inherit;
+   display: flex;
+   align-items: center;
+   padding: 0 10px;
+}
+
+.header ol {
+   display: flex;
+   height: inherit;
+}
+
+.header ol li {
+   height: inherit;
+}
+
+.menu {
+   height: inherit;
 }
 
 .flexbox {
