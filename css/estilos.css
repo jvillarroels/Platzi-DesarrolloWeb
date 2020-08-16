@@ -116,6 +116,17 @@ ul {
    justify-content: space-between;
 }
 
+.container {
+   /* border: 1px solid red; */
+   width: 1000px;
+   margin: 0 auto;
+   display: inherit;
+   justify-content: inherit;
+   align-items: inherit;
+   height: inherit;
+   flex-wrap: inherit;
+}
+
 .event {
    /* border: 1px solid red; */
    margin: 10px;
@@ -147,6 +158,7 @@ ul {
 
 .event-list {
    display: flex;
+   flex-wrap: wrap;
 }
 
 .event-list-title {
@@ -242,15 +254,19 @@ ul {
 .hero {
    height: 300px;
    /* background-color: red; */
-   background-image: url('../images/hero.jpg');
+   /* background-image: url('../images/hero.jpg'); */
    background-color: #1b2127;
-   background-size: 500px 300px;
-   background-repeat: no-repeat;
-   background-position-x: right;
+   /* background-size: 500px 300px; */
+   /* background-repeat: no-repeat; */
+   /* background-position-x: right; */
    display: flex;
    align-items: center;
+   justify-content: space-between;
 }
 
+.hero-image {
+   object-fit: cover;
+}
 .menu {
    height: inherit;
 }
